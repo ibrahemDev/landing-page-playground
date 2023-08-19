@@ -1,0 +1,1 @@
+import{_ as o}from"./chunk-40e4fadb.js";import{r as t,j as e,u as s}from"./chunk-34c2d97f.js";const r=t.lazy(()=>o(()=>import("./chunk-83641cc7.js"),["assets/chunks/chunk-83641cc7.js","assets/chunks/chunk-34c2d97f.js"])),a={path:"/",children:[{path:"/",element:e(t.Suspense,null,e(r,null))}]};function i(){return s([a])}export{i as T};

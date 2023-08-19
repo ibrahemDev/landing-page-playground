@@ -1,0 +1,88 @@
+{
+  "_chunk-34c2d97f.js": {
+    "file": "assets/chunks/chunk-34c2d97f.js"
+  },
+  "_chunk-40e4fadb.js": {
+    "file": "assets/chunks/chunk-40e4fadb.js"
+  },
+  "_chunk-487bc8d0.js": {
+    "dynamicImports": [
+      "src/app/pages/homePage/HomePage.tsx"
+    ],
+    "file": "assets/chunks/chunk-487bc8d0.js",
+    "imports": [
+      "_chunk-40e4fadb.js",
+      "_chunk-34c2d97f.js"
+    ]
+  },
+  "_chunk-ec9354a1.js": {
+    "file": "assets/chunks/chunk-ec9354a1.js"
+  },
+  "node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
+    "dynamicImports": [
+      "src/pages/all.page.tsx",
+      "src/pages/index.page.tsx",
+      "src/renderer/_default.page.client.tsx"
+    ],
+    "file": "assets/entries/entry-server-routing.e85f89b2.js",
+    "imports": [
+      "_chunk-ec9354a1.js",
+      "_chunk-40e4fadb.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/vite-plugin-ssr/dist/esm/client/entry.js"
+  },
+  "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
+    "dynamicImports": [
+      "src/pages/all.page.tsx",
+      "src/pages/index.page.tsx",
+      "src/renderer/_default.page.client.tsx"
+    ],
+    "file": "assets/entries/entry-client-routing.82b4dea6.js",
+    "imports": [
+      "_chunk-ec9354a1.js",
+      "_chunk-40e4fadb.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
+  },
+  "src/app/pages/homePage/HomePage.tsx": {
+    "file": "assets/chunks/chunk-83641cc7.js",
+    "imports": [
+      "_chunk-34c2d97f.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/app/pages/homePage/HomePage.tsx"
+  },
+  "src/pages/all.page.tsx": {
+    "file": "assets/entries/src_pages_all.page.6247e7ba.js",
+    "imports": [
+      "_chunk-487bc8d0.js",
+      "_chunk-34c2d97f.js",
+      "_chunk-40e4fadb.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/pages/all.page.tsx"
+  },
+  "src/pages/index.page.tsx": {
+    "file": "assets/entries/src_pages_index.page.8cbd2ecb.js",
+    "imports": [
+      "_chunk-487bc8d0.js",
+      "_chunk-34c2d97f.js",
+      "_chunk-40e4fadb.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/pages/index.page.tsx"
+  },
+  "src/renderer/_default.page.client.tsx": {
+    "file": "assets/entries/src_renderer_default.page.client.26145034.js",
+    "imports": [
+      "_chunk-34c2d97f.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/renderer/_default.page.client.tsx"
+  }
+}
