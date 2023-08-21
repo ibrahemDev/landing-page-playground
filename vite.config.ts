@@ -3,12 +3,14 @@ import ssr from 'vite-plugin-ssr/plugin'
 import { UserConfig } from 'vite'
 import viteCompression from 'vite-plugin-compression';
 import * as path from 'path'
+import svgr from "vite-plugin-svgr";
 export default {
   server: {
     cors: true
   },
   base:"/landing-page-playground/",
   plugins: [
+    svgr(),
     react({
       jsxImportSource: '@emotion/react',
 
@@ -59,6 +61,8 @@ export default {
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
+      '@app': path.resolve(__dirname, './src/app'),
+      '@interiaInteriorDesign': path.resolve(__dirname, './src/app/landing_pages/interia_interior_design'),
     },
   },
 } as UserConfig
