@@ -24,7 +24,7 @@ const GlobalStyles: React.FC<React.PropsWithChildren<{}>> = ({ children }) => {
       <Global styles={{
         body: {
           
-          ...tw`dark:bg-[#100e17] bg-gray-100 min-h-[100vh]`
+          ...tw`dark:bg-[#100e17] bg-[#191D1D] min-h-[100vh]`
         }
       }} />
       <Global styles={customStyles} />
