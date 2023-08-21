@@ -1,18 +1,26 @@
 {
-  "_chunk-34c2d97f.js": {
-    "file": "assets/chunks/chunk-34c2d97f.js"
+  "_chunk-2c1c0bca.js": {
+    "dynamicImports": [
+      "src/app/pages/homePage/HomePage.tsx",
+      "src/app/landing_pages/interia_interior_design/pages/InteriaInteriorDesignPage.tsx"
+    ],
+    "file": "assets/chunks/chunk-2c1c0bca.js",
+    "imports": [
+      "_chunk-40e4fadb.js",
+      "_chunk-4b1ad6f3.js",
+      "_chunk-dca150be.js"
+    ]
   },
   "_chunk-40e4fadb.js": {
     "file": "assets/chunks/chunk-40e4fadb.js"
   },
-  "_chunk-487bc8d0.js": {
-    "dynamicImports": [
-      "src/app/pages/homePage/HomePage.tsx"
-    ],
-    "file": "assets/chunks/chunk-487bc8d0.js",
+  "_chunk-4b1ad6f3.js": {
+    "file": "assets/chunks/chunk-4b1ad6f3.js"
+  },
+  "_chunk-dca150be.js": {
+    "file": "assets/chunks/chunk-dca150be.js",
     "imports": [
-      "_chunk-40e4fadb.js",
-      "_chunk-34c2d97f.js"
+      "_chunk-4b1ad6f3.js"
     ]
   },
   "_chunk-ec9354a1.js": {
@@ -22,9 +30,10 @@
     "dynamicImports": [
       "src/pages/all.page.tsx",
       "src/pages/index.page.tsx",
+      "src/renderer/_error.page.tsx",
       "src/renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entries/entry-server-routing.e85f89b2.js",
+    "file": "assets/entries/entry-server-routing.1b71022a.js",
     "imports": [
       "_chunk-ec9354a1.js",
       "_chunk-40e4fadb.js"
@@ -36,9 +45,10 @@
     "dynamicImports": [
       "src/pages/all.page.tsx",
       "src/pages/index.page.tsx",
+      "src/renderer/_error.page.tsx",
       "src/renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entries/entry-client-routing.82b4dea6.js",
+    "file": "assets/entries/entry-client-routing.d92715e9.js",
     "imports": [
       "_chunk-ec9354a1.js",
       "_chunk-40e4fadb.js"
@@ -46,43 +56,187 @@
     "isEntry": true,
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
   },
-  "src/app/pages/homePage/HomePage.tsx": {
-    "file": "assets/chunks/chunk-83641cc7.js",
+  "src/app/landing_pages/interia_interior_design/assest/Ellipse_2.jpeg": {
+    "file": "assets/static/Ellipse_2.0a72e15d.jpeg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/Ellipse_2.jpeg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/a1.jpeg": {
+    "file": "assets/static/a1.24510a54.jpeg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/a1.jpeg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/a2.jpeg": {
+    "file": "assets/static/a2.e4e2c7df.jpeg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/a2.jpeg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/a3.jpeg": {
+    "file": "assets/static/a3.1a96980f.jpeg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/a3.jpeg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/blog-images/blog_image_1.jpeg": {
+    "file": "assets/static/blog_image_1.bcf76cdf.jpeg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/blog-images/blog_image_1.jpeg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/blog-images/blog_image_2.jpeg": {
+    "file": "assets/static/blog_image_2.276f9c83.jpeg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/blog-images/blog_image_2.jpeg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/blog-images/blog_image_3.jpeg": {
+    "file": "assets/static/blog_image_3.4861812c.jpeg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/blog-images/blog_image_3.jpeg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/galery/image1.jpeg": {
+    "file": "assets/static/image1.91bd711a.jpeg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/galery/image1.jpeg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/galery/image2.jpeg": {
+    "file": "assets/static/image2.95c5cf28.jpeg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/galery/image2.jpeg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/galery/image3.jpeg": {
+    "file": "assets/static/image3.c9f8f048.jpeg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/galery/image3.jpeg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/galery/image4.jpeg": {
+    "file": "assets/static/image4.78dd744c.jpeg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/galery/image4.jpeg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/h1.jpeg": {
+    "file": "assets/static/h1.ecf8ce51.jpeg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/h1.jpeg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/h2.png": {
+    "file": "assets/static/h2.c5203674.png",
+    "src": "src/app/landing_pages/interia_interior_design/assest/h2.png"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/h3.jpeg": {
+    "file": "assets/static/h3.3128261c.jpeg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/h3.jpeg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/h4.jpeg": {
+    "file": "assets/static/h4.bf614b19.jpeg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/h4.jpeg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/h5.jpeg": {
+    "file": "assets/static/h5.4f5ffee4.jpeg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/h5.jpeg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/h7.png": {
+    "file": "assets/static/h7.04312564.png",
+    "src": "src/app/landing_pages/interia_interior_design/assest/h7.png"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/hero_image.jpeg": {
+    "file": "assets/static/hero_image.c5baa767.jpeg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/hero_image.jpeg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/svg/Fudavector.svg": {
+    "file": "assets/static/Fudavector.1fd78f49.svg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/svg/Fudavector.svg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/svg/Vector.svg": {
+    "file": "assets/static/Vector.87fad4ac.svg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/svg/Vector.svg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/svg/facebook-f.svg": {
+    "file": "assets/static/facebook-f.ddc49465.svg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/svg/facebook-f.svg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/svg/instagram.svg": {
+    "file": "assets/static/instagram.ee9c1e6b.svg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/svg/instagram.svg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/svg/linkedin-in.svg": {
+    "file": "assets/static/linkedin-in.40f5b67c.svg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/svg/linkedin-in.svg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/svg/star-half-alt.svg": {
+    "file": "assets/static/star-half-alt.51e2f4ec.svg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/svg/star-half-alt.svg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/svg/star.svg": {
+    "file": "assets/static/star.ab70c4f6.svg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/svg/star.svg"
+  },
+  "src/app/landing_pages/interia_interior_design/assest/svg/twitter.svg": {
+    "file": "assets/static/twitter.c8bd7135.svg",
+    "src": "src/app/landing_pages/interia_interior_design/assest/svg/twitter.svg"
+  },
+  "src/app/landing_pages/interia_interior_design/pages/InteriaInteriorDesignPage.tsx": {
+    "assets": [
+      "assets/static/hero_image.c5baa767.jpeg",
+      "assets/static/a1.24510a54.jpeg",
+      "assets/static/a2.e4e2c7df.jpeg",
+      "assets/static/a3.1a96980f.jpeg",
+      "assets/static/h1.ecf8ce51.jpeg",
+      "assets/static/h3.3128261c.jpeg",
+      "assets/static/h2.c5203674.png",
+      "assets/static/h4.bf614b19.jpeg",
+      "assets/static/h5.4f5ffee4.jpeg",
+      "assets/static/h7.04312564.png",
+      "assets/static/Ellipse_2.0a72e15d.jpeg",
+      "assets/static/image1.91bd711a.jpeg",
+      "assets/static/image2.95c5cf28.jpeg",
+      "assets/static/image3.c9f8f048.jpeg",
+      "assets/static/image4.78dd744c.jpeg",
+      "assets/static/blog_image_1.bcf76cdf.jpeg",
+      "assets/static/blog_image_2.276f9c83.jpeg",
+      "assets/static/blog_image_3.4861812c.jpeg"
+    ],
+    "file": "assets/chunks/chunk-a3759356.js",
     "imports": [
-      "_chunk-34c2d97f.js"
+      "_chunk-4b1ad6f3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/app/landing_pages/interia_interior_design/pages/InteriaInteriorDesignPage.tsx"
+  },
+  "src/app/pages/homePage/HomePage.tsx": {
+    "file": "assets/chunks/chunk-cb356829.js",
+    "imports": [
+      "_chunk-4b1ad6f3.js"
     ],
     "isDynamicEntry": true,
     "src": "src/app/pages/homePage/HomePage.tsx"
   },
   "src/pages/all.page.tsx": {
-    "file": "assets/entries/src_pages_all.page.6247e7ba.js",
+    "file": "assets/entries/src_pages_all.page.55b9f784.js",
     "imports": [
-      "_chunk-487bc8d0.js",
-      "_chunk-34c2d97f.js",
-      "_chunk-40e4fadb.js"
+      "_chunk-2c1c0bca.js",
+      "_chunk-4b1ad6f3.js",
+      "_chunk-40e4fadb.js",
+      "_chunk-dca150be.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
     "src": "src/pages/all.page.tsx"
   },
   "src/pages/index.page.tsx": {
-    "file": "assets/entries/src_pages_index.page.8cbd2ecb.js",
+    "file": "assets/entries/src_pages_index.page.f009c292.js",
     "imports": [
-      "_chunk-487bc8d0.js",
-      "_chunk-34c2d97f.js",
-      "_chunk-40e4fadb.js"
+      "_chunk-2c1c0bca.js",
+      "_chunk-4b1ad6f3.js",
+      "_chunk-40e4fadb.js",
+      "_chunk-dca150be.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
     "src": "src/pages/index.page.tsx"
   },
   "src/renderer/_default.page.client.tsx": {
-    "file": "assets/entries/src_renderer_default.page.client.26145034.js",
+    "file": "assets/entries/src_renderer_default.page.client.24f9222d.js",
     "imports": [
-      "_chunk-34c2d97f.js"
+      "_chunk-4b1ad6f3.js",
+      "_chunk-dca150be.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
     "src": "src/renderer/_default.page.client.tsx"
+  },
+  "src/renderer/_error.page.tsx": {
+    "file": "assets/entries/src_renderer_error.page.b94a4595.js",
+    "imports": [
+      "_chunk-4b1ad6f3.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/renderer/_error.page.tsx"
   }
 }

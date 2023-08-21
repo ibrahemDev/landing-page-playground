@@ -1,1 +1,0 @@
-import{T as e}from"../chunks/chunk-487bc8d0.js";import{j as n}from"../chunks/chunk-34c2d97f.js";import"../chunks/chunk-40e4fadb.js";async function a(o){return{pageContext:{pageProps:{},documentProps:{title:"landing-page-playground"}}}}const i={title:"landing-page-playground",description:""};function g(){return n(e,null)}export{g as Page,i as documentProps,a as onBeforeRender};

@@ -1,1 +1,0 @@
-import{T as e}from"../chunks/chunk-487bc8d0.js";import{j as o}from"../chunks/chunk-34c2d97f.js";import"../chunks/chunk-40e4fadb.js";const s={title:"Home Page",description:"",headerTitleKey:"HomePage"},i=()=>o(e,null);export{i as Page,s as documentProps};

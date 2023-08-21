@@ -1,0 +1,1 @@
+import{j as n,R as l}from"../chunks/chunk-4b1ad6f3.js";function u({is404:r,errorInfo:e}){return r?n(l.Fragment,null,n("h1",null,"404 Page Not Found"),n("p",null,"This page could not be found."),n("p",null,e)):n(l.Fragment,null,n("h1",null,"500 Internal Error"),n("p",null,"Something went wrong."))}export{u as Page};
